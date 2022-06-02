@@ -20,3 +20,72 @@
  * and
  * concat
  */
+
+//isTrue
+function isTrue(arg){
+    if(arg === true){
+        return true;
+    } else{
+        return false;
+    }
+}
+
+//isFalse
+function isFalse(arg){
+    if(arg === false) {
+        return true;
+    } else {
+        return false;
+    }
+}
+//not
+function not(arg){
+    return !arg;
+}
+
+//addOne
+function addOne(num){
+    return parseFloat(num) + 1;
+}
+
+//isEven
+function isEven(num){
+    if(num % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+//isIdentical
+function isIdentical(val1, val2){
+    if(val1 === val2){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+//isEqual
+function isEqual(val1, val2) {
+    if(val1 == val2) {
+        return true
+    } else {
+        return false
+    }
+}
+
+//or
+function or(val1, val2){
+    return val1 || val2;
+}
+
+//and
+function and(val1, val2) {
+    return val1 && val2;
+}
+
+//concat
+function concat(val1, val2) {
+    return ''+val1+val2;
+}
